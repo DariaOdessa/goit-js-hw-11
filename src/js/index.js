@@ -90,7 +90,7 @@ const { height: cardHeight } = document
         .firstElementChild.getBoundingClientRect();
 
         window.scrollBy({
-        top: cardHeight * 2,
+        top: cardHeight * 3,
         behavior: "smooth",
         });
 }
